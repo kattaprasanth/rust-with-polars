@@ -1,4 +1,4 @@
-FROM docker pull mcr.microsoft.com/devcontainers/rust:latest
+FROM docker pull mcr.microsoft.com/devcontainers/rust:1.0.20-bullseye
 
 # Include lld linker to improve build times either by using environment variable
 # RUSTFLAGS="-C link-arg=-fuse-ld=lld" or with Cargo's configuration file (i.e see .cargo/config.toml).
